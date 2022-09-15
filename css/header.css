@@ -1,0 +1,56 @@
+.cabecalho .container {
+    padding: 2.5em 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.cabecalho__logo .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho-nav__link {
+    padding: 0em 2em;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cinza);
+}
+
+.link__about {
+    color: var(--azul);
+}
+
+.link__work {
+    color: var(--azul);
+}
+
+.link__services {
+    color: var(--azul);
+}
+
+.link__jobs {
+    color: var(--azul);
+}
+
+.cabecalho-nav .container {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0em 2em;
+}
+
+.contato-customizado {
+    text-decoration: none;
+    border: 1px solid var(--preto);
+    border-radius: 3px;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    padding: 1em 2.5em;
+    font-size: 18px;
+    font-weight: 700;
+}
+
