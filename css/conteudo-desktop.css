@@ -1,0 +1,56 @@
+.conteudo .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3.5em 5em;
+}
+
+.texto__titulo {
+    font-size: 84px;
+    font-weight: 700;
+}
+
+.texto__p {
+    padding-top: 2.5em;
+    font-size: 18px;
+    color: var(--preto-transparente);
+    padding-bottom: 3.5em;
+}
+
+.botao__recent-work {
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+    background-color: var(--azul);
+    color: var(--branco);
+    padding: 1em 1.5em;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.botao-azul {
+    padding-top: 5.5em;
+    width: 48px;
+}
+
+.botao-next {
+    text-decoration: none;
+}
+
+.imagem {
+    display: flex;
+}
+
+.imagem__traco {
+    width: 40vw;
+    position: absolute;
+    left: 20em;
+    bottom: 2em;
+}
+
+.imagem__desktop {
+    width: 47vw;
+    position: absolute;
+    right: 17em;
+    top: 10em;
+}
