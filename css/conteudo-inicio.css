@@ -1,3 +1,5 @@
+/* Container Principal do Conteúdo */
+
 .conteudo .container {
     display: flex;
     flex-direction: column;
@@ -5,10 +7,14 @@
     padding: 3.5em 5em;
 }
 
+/*Estilo do Título */
+
 .texto__titulo {
     font-size: 84px;
     font-weight: 700;
 }
+
+/*Estilo do Texto */
 
 .texto__p {
     padding-top: 2.5em;
@@ -16,6 +22,8 @@
     color: var(--preto-transparente);
     padding-bottom: 3.5em;
 }
+
+/*Estilo do Botão Recent Work */
 
 .botao__recent-work {
     border: 1px solid var(--preto);
@@ -28,18 +36,20 @@
     font-weight: 700;
 }
 
+/*Estilo da Seta Azul */
+
 .botao-azul {
     padding-top: 5.5em;
     width: 48px;
 }
 
-.botao-next {
-    text-decoration: none;
-}
+/*Alinhando imagem */
 
 .imagem {
     display: flex;
 }
+
+/*Estilo do Desenho Traçado */
 
 .imagem__traco {
     width: 40vw;
@@ -47,6 +57,8 @@
     left: 20em;
     bottom: 2em;
 }
+
+/*Estilo da Imagem do Inicio */
 
 .imagem__desktop {
     width: 47vw;

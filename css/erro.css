@@ -1,0 +1,46 @@
+/*Estilo da Imagem de Erro */
+
+.tamanho__rosto {
+    position: absolute;
+    left: 43.5vw;
+    top: 2.5vw;
+    width: 200px;
+}
+
+/*Posição do Texto */
+
+.texto__erro {
+    padding-top: 17.5vw;
+    text-align: center;
+}
+
+/*Estilo do código de erro de Erro */
+
+.codigo__erro {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+/*Estilo da mensagem de Erro */
+
+.mensagem__erro {
+    font-size: 50px;
+}
+
+/*Estilo do parágrafo */
+
+.p__erro {
+    padding: 3em;
+}
+
+/*Estilo do botão de retorno para a página inicial */
+
+.link__erro {
+    padding: 1em 2em;
+    text-decoration: none;
+    border: 1px solid var(--preto);
+    border-radius: 3px;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    font-size: 18px;
+}

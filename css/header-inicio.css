@@ -1,3 +1,5 @@
+/* Container Principal do Cabeçalho */
+
 .cabecalho .container {
     padding: 2.5em 3em;
     display: flex;
@@ -6,10 +8,14 @@
     
 }
 
+/* Container do Logo Folio */
+
 .cabecalho__logo .container{
     display: flex;
     justify-content: space-around;
 }
+
+/* Navegação e Cor dos Links*/
 
 .cabecalho-nav__link {
     padding: 0em 2em;
@@ -18,6 +24,8 @@
     font-weight: 700;
     color: var(--cinza);
 }
+
+/* Indicativo da Página */
 
 .link__about {
     color: var(--azul);
@@ -35,6 +43,8 @@
     color: var(--azul);
 }
 
+/* Alinhamento do Menu */
+
 .cabecalho-nav .container {
     text-decoration: none;
     display: flex;
@@ -43,10 +53,12 @@
     padding: 0em 2em;
 }
 
+/* Botão Customizado */
+
 .contato-customizado {
     text-decoration: none;
     border: 1px solid var(--preto);
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: var(--azul-escuro);
     color: var(--branco);
     padding: 1em 2.5em;

@@ -1,5 +1,6 @@
-@import url(./header.css);
-@import url(./conteudo-desktop.css);
+@import url(./erro.css);
+@import url(./header-inicio.css);
+@import url(./conteudo-inicio.css);
 
 :root {
     --branco: #FFFFFF;
@@ -8,11 +9,11 @@
     --preto-transparente: #606060;
     --azul: #5468E7;
     --cinza: #8B8B8B;
+    --cinza-degrade: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
     --fonte-principal: "Roboto";
 }
 
 body {
-    background-color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400px;
